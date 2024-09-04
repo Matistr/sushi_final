@@ -1,0 +1,198 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:red ;
+    
+}
+
+
+header {
+    background-color: #232227;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'DM Serif Text', serif; /* Familia de fuente elegante */
+    font-size: 1rem; /* Tamaño de fuente grande */
+    display: flex;
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para el texto */
+}
+
+header div h1 {
+    margin-left: 50px;
+}
+
+.contenedor {
+    padding: 5px; /* Ajusta este valor según la altura que quieras para el header */
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+header ul li {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+#carta, #carro, #user {
+    color: white;
+    border-radius: 50px;
+    padding: 10px 18px;
+    background-color: #333235;
+    transition: background-color 0.3s ease;
+}
+
+#carta {
+    padding: 10px 30px;
+}
+
+header ul li a:hover #carro,
+header ul li a:hover #user {
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red, 0 0 200px red;
+}
+
+/* Efecto hover para el botón "carta" */
+#carta:hover {
+    background-color: red;
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red, 0 0 200px red;
+}
+
+#local, #pin {
+    color: white;
+}
+
+#location-link:hover #local,
+#location-link:hover #pin {
+    color: red;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red, 0 0 200px red;
+}
+
+.formulario-contenedor {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 100px);
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-family: 'DM Serif Text', serif;
+    margin: -20px auto 30px auto;
+    text-align: left;
+    color: #131215;
+    
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-family: 'DM Serif Text', serif;
+}
+
+input[type="text"], select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #232227;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+
+.img1 {
+    text-align: right;
+}
+
+.img2 {
+    text-align: left;
+    margin: 10px;
+    width: 450px;
+    
+}
+section {
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+.resultados {
+    background-color: #131215;
+    text-align: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    margin: 50px 50px 10px 50px;
+    border-radius: 15px;
+
+}
+
+.datos {
+    padding-top: 20px;
+    font-family: 'DM Serif Text', serif; /* Familia de fuente elegante */
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    color: white; /* Color de texto oscuro */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 30px; /* Espacio inferior */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para el texto */
+}
+
+.texto {
+
+    font-size: 1.2rem;
+    background-color:white;
+    text-align: justify;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin: -20px auto 30px auto;
+      
+
+}
+

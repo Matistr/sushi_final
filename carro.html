@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Sushi</title>
+    <link rel="stylesheet" href="css/carro.css">
+</head>
+
+<body>
+    <!-- Encabezado del sitio -->
+    <header>
+        <div class="seccion_logo">
+            <div class="logo">
+                <a href="inicio.html" class="logo">Sushi Fukusuke🥢</a>
+            </div>
+            <div class="texto_logo">
+                <p>Sushi - Bar & Delivery ©</p>
+            </div>
+
+        </div>
+        <!-- Barra de navegacion -->
+        <nav>
+            <a href="inicio.html">Inicio</a>
+            <a href="carta.html">Menú</a>
+            <a href="#">Locales</a>
+            <a href="#">Contacto</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Sección que muestra los productos agregados -->
+        <section class="productos">
+            <h2>Lista de productos 🗒️</h2>
+            <div class="producto">
+                <div class="eliminar-producto">
+                    <button class="eliminar-btn">x</button>
+                    <p class="eliminar-texto">Eliminar producto</p>
+                </div>
+                <img src="img/sushi1_.png" alt="Sushi 1">
+                <p class="producto_nombre">Veggie Keto Oriental</p>
+
+                <p><strong>$10.00/u</strong></p>
+                <div class="cantidad">
+                    <button class="cantidad-btn disminuir">-</button>
+                    <span class="cantidad-num">1</span>
+                    <button class="cantidad-btn aumentar">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="eliminar-producto">
+                    <button class="eliminar-btn">x</button>
+                    <p class="eliminar-texto">Eliminar producto</p>
+                </div>
+                <img src="img/sushi2.png" alt="Sushi 2">
+                <p class="producto_nombre">Coreano Oriental</p>
+
+                <p><strong>$12.00/u</strong></p>
+                <div class="cantidad">
+                    <button class="cantidad-btn disminuir">-</button>
+                    <span class="cantidad-num">1</span>
+                    <button class="cantidad-btn aumentar">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="eliminar-producto">
+                    <button class="eliminar-btn">x</button>
+                    <p class="eliminar-texto">Eliminar producto</p>
+                </div>
+                <img src="img/sushi3_.png" alt="Sushi 3">
+                <p class="producto_nombre">Hot Salmón</p>
+
+                <p><strong>$12.00/u</strong></p>
+                <div class="cantidad">
+                    <button class="cantidad-btn disminuir">-</button>
+                    <span class="cantidad-num">1</span>
+                    <button class="cantidad-btn aumentar">+</button>
+                </div>
+            </div>
+        </section>
+        <!-- Sección del carrito de compras -->
+        <section class="carrito">
+            <h2>Carrito de Compras 🛒</h2>
+            <ul class="carrito-items">
+                <li>
+                    <span>Veggie Keto Oriental </span>
+                    <span>$10.00</span>
+                </li>
+                <li>
+                    <span>Coreano Oriental </span>
+                    <span>$12.00</span>
+                </li>
+                <li>
+                    <span>Hot Salmón </span>
+                    <span>$12.00</span>
+
+                </li>
+            </ul>
+            <div class="descuentos">
+                <span>Descuentos:</span>
+                <span>$0.00</span>
+            </div>
+            <div class="total">
+
+                <span>Total:</span>
+                <span>$34.00</span>
+            </div>
+
+            <a href="info.html"><button class="checkout">¡Ir a pagar!</button></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sushi Fukusuke. Todos los derechos reservados.</p>
+        <p>Horario de atención: Lunes a sábado de 12:00 a 17:00 y de 18:00 a 23:30 hrs.</p>
+    </footer>
+</body>
+
+</html>
